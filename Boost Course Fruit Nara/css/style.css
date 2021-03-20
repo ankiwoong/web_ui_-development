@@ -17,3 +17,27 @@ header {
     width: 100%;
     height: 100%;
 }
+
+.fruitmenu {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.nav {
+    margin-bottom: 50px;
+}
+
+.redfruit,
+.greenfruit,
+.bluefruit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    width: 100%;
+    height: 30px;
+    margin: 10px;
+}
