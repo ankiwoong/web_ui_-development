@@ -1,0 +1,19 @@
+body {
+    font-family: "NanumBarunGothic", "Dotum", "serif";
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 100px;
+    /* border: 1px solid black; */
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    font-size: 40px;
+    width: 100%;
+    height: 100%;
+}
