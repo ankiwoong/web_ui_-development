@@ -41,3 +41,29 @@ header {
     height: 30px;
     margin: 10px;
 }
+
+.salestitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 20px;
+}
+
+.saleslist {
+    margin: 20px 20px;
+    border-top: 2px solid black;
+}
+
+.salesproduct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.salesinformation {
+    text-align: center;
+    font-size: 25px;
+}
+
+.section {
+    margin-bottom: 100px;
+}
