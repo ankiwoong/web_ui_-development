@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        fieldset,
+        legend {
+            margin: 0;
+            padding: 0;
+        }
+
+        body,
+        input,
+        textarea,
+        select,
+        button {
+            font-size: 14px;
+            font-family: Dotum, '돋움', Helvetica, "Apple SD Gothic Neo", sans-serif;
+        }
+
+        fieldset {
+            border: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>form요소</legend>
+
+            <input type="text" title="검색어 입력" value="input text">
+
+            <button type="submit">button</button>
+
+            <textarea>textarea</textarea>
+
+            <label for="checkbox">input checkbox</label><input type="checkbox" id="checkbox">
+
+            <select>
+                <option>select 옵션</option>
+                <option>select 옵션</option>
+                <option>select 옵션</option>
+            </select>
+        </fieldset>
+    </form>
+</body>
+
+</html>
