@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>요소 숨김 처리</title>
+    <style>
+        .blind {
+            /* 레이아웃에 영향을 끼치지 않도록 */
+            position: absolute;
+
+            /* 스크린 리더가 읽을 수 있도록 */
+            width: 1px;
+            height: 1px;
+
+            /* 눈에 보이는 부분을 제거 */
+            clip: rect(0 0 0 0);
+            margin: -1px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <span class="blind">숨김 텍스트</span>
+</body>
+
+</html>
